@@ -1,0 +1,333 @@
+        *{margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Playfair Display", serif;
+
+        }
+        .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: %; */
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+        /* body{
+
+             animation-name:port;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+        @keyframes port{
+            from{
+                background-color: rgb(5, 9, 9);
+             }
+             to{
+                background-color: blue;
+             } 
+        } */
+        /* .dev{
+            height: 70px;
+            width: 20%;
+            display: flex;
+            background-color: black;
+            color: antiquewhite;
+            font-size: 25px;
+            position: sticky;
+            float: left;
+        } */
+        nav{
+            height: 70px;
+            width:100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            float: left;
+            font-size: 20px;
+            position: fixed;
+        }
+        
+        
+        .menu{
+            height: 100%;
+            width: 60%;
+        }
+        .menu ul{
+            /* margin-left: 17%; */
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            align-items: center;
+            justify-content:space-evenly;
+            position: relative;
+        }
+        .menu ul li{
+            margin:0 15px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            /* background-color: blue; */
+            color: aqua;
+        }
+        /* .menu ul li::after{
+            transition: 2s ease-in-out;
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0px;
+            width: 1px;
+            height: 7px;
+        }
+        .menu ul li:hover::after{
+            width: 50px;
+            background-color: red;
+        } */
+        .logo{
+            height: 100%;
+            width: 20%;
+        }
+        .logo img{
+            height: 100%;
+            width: 100%;
+        }
+        .icon{
+            font-size: 25px;
+            height: 100px;
+            width: 100px;
+            color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 13px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .profile{
+            height:500px;
+            width: 90%;
+            /* background-color:black; */
+            /* border: 1px solid ; */
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+            margin-left: 6%;
+            font-size:20px;
+        }
+        .profile img{
+            border-radius: 50%;
+        }
+        .pic{
+            height:300px;
+            width:300px;
+            margin-top: 100px;
+            margin-left: 70px;
+            float: left;
+        }
+        .pic img{
+            height: 100%;
+            width: 100%;
+        }
+        .intro{
+            height:250px;
+            width:600px;
+            color: aqua;
+            margin-top:125px;
+            margin-left:250px;
+            float: left;
+        }
+        h1{
+            text-align: center;
+            margin-right: 140px;
+        }
+        .p{
+         text-align: center;   
+        }
+        .h1{
+        text-align: center;
+        font-size: 30px;
+        color: crimson;
+        margin-top: 5%;
+        }
+        .about{
+            height: 420px;
+            width: 70%;
+            /* border: 1px solid ; */
+            /* display: flex;
+            align-items: center;
+            justify-content: center;  */
+            margin-left:15%;
+            font-size:20px;
+        }
+        .h2{
+            text-align: center;
+            margin-left: 30px;
+            color: aqua;
+        }
+        .about p{
+            color: aqua;
+            text-align: left;
+        }
+        .x{
+            color: cpurple;
+        }
+        .row{
+            display: flex;
+            color: crimson;
+
+            justify-content: space-evenly;
+            
+            padding: 10px;
+        }
+        hr{
+          margin: 0 auto;
+          width: 60%;
+          height: 7px;
+          background-color: rgb(218, 42, 7) ;
+          border-radius: 20px;
+          }
+          .h1{
+            margin-top: 110px;
+          }
+        .skills{
+            height: 700px;
+            width: 75%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* gap: 10px;  */
+            margin: 0 auto;
+            /* margin-bottom: 10px auto; */
+            margin-right: 10%; 
+            
+
+        }
+        .skills-icon{
+            height: 200px;
+            width: 200px;
+            border: 1px solid crimson;
+            background-color: crimson;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        /* .skills-icon::after{
+            
+        } */
+            .skills-icon img{
+                border-radius: 10px;
+                height: 100%;
+                width: 100%;
+        }
+        .service{
+            width: 80%;
+            color: aqua;
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .service-x{
+            height: 145px;
+            width: 25%;
+            border: 3px solid crimson;
+            border-radius: 10%;
+            background-color: black;
+        }
+        .service-x:hover {
+            background-color:crimson ;
+        }
+        .project{
+            width: 80%;
+            color: aqua;
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .pr{
+            height: 160px;
+            width: 30%;
+            border: 3px solid crimson;
+        }
+        .pr img{
+            height: 100%;
+            width: 100%;
+        }
+        /* .pr img:hover{
+            border-color: blue;
+        } */
+        .contact-outer{
+            width: 80%;
+            color: aqua;
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        h6{
+            text-align: center;
+        }
+        .h3{
+        text-align: center;
+        font-size: 30px;
+        color: crimson;
+        }
+        .left{
+            height: 400px;
+            width: 40%;
+            /* border:1px solid blue; */
+        }
+        .w{
+            text-align: left;
+            margin-left: 10px;
+            padding: 5px;
+            font-size: 15px;
+        }
+        .right{
+            height: 400px;
+            width: 38%;
+            /* border:1px solid blue; */
+        }
+        .f12{
+            width: 200px;
+            background-color: grey;
+            border:10px solid gray;
+            padding: 8px;
+            margin: 5px auto;
+            
+        }
+        .send::first-line{
+            width: 80px; 
+        background-color: crimson;
+        /* text-align: center; */
+        margin-top: 500px;
+        margin: 200px;
+        padding: 10px;
+        font-size: 17px;
+        margin-left: 10px;
+        text-align: right;
+        }
+        .large{
+            width: 400px;
+            height:400px;
+            padding: px;
+            background-color: grey;
+            text-align: left;
+        }
