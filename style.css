@@ -64,18 +64,16 @@
         }
         .menu ul li::after{
             content:"";
-            height: 7px;
+            height: 6px;
             width:1px;
             position: absolute;
             background-color: red;
             transition: 2s ease-in-out;
         }
         .menu ul li:hover::after{
-            width: 70px;
+            width:50px;
             background-color: red;
      }
-
-
         .menu ul{
             /* margin-left: 17%; */
             list-style: none;
@@ -94,19 +92,6 @@
             /* background-color: blue; */
             color: aqua;
         }
-        /* .menu ul li::after{
-            transition: 2s ease-in-out;
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 0px;
-            width: 1px;
-            height: 7px;
-        }
-        .menu ul li:hover::after{
-            width: 50px;
-            background-color: red;
-        } */
         .logo{
             height: 100%;
             width: 20%;
@@ -319,24 +304,57 @@
             width: 38%;
             /* border:1px solid blue; */
         }
-        .f12{
-            width: 200px;
-            background-color: grey;
-            border:10px solid gray;
-            padding: 8px;
-            margin: 5px auto;
-            
+        .f1{
+            color: crimson;
+            font-style: ;
         }
-        .send::first-line{
-            width: 80px; 
+        input{
+            height: 40px;
+            width: 320px;
+            padding: 12px 30px;
+            /* padding:8px 100px; */
+            /* color: blue;
+            background-color: brown; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        input:focus{
+            box-shadow: 0 0 5px blue;
+            /* background-color: lightcoral; */
+            animation: input-focus 10s ease-in-out infinite;
+        }
+        @keyframes input-focus{
+                0%{
+                    box-shadow: 0 0 10px blue;
+                }
+                20%{
+                    box-shadow: 0 0 10px crimson;
+                }
+                40%{
+                    box-shadow: 0 0 10px red;
+                }
+                60%{
+                    box-shadow: 0 0 10px yellow;
+                }
+                80%{
+                    box-shadow: 0 0 10px green;
+                }
+                100%{
+                    box-shadow: 0 0 10px purple;
+                }
+            }
+        .send{
+        padding: 12px 18px;
+        color: white;
         background-color: crimson;
-        /* text-align: center; */
         margin-top: 500px;
         margin: 200px;
-        padding: 10px;
-        font-size: 17px;
         margin-left: 10px;
         text-align: right;
+        border-radius: 10px;
         }
         .large{
             width: 250px;
@@ -344,4 +362,5 @@
             padding: px;
             background-color: grey;
             text-align: left;
+            border-radius: 10px;
         }
