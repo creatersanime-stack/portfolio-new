@@ -62,6 +62,20 @@
             height: 100%;
             width: 60%;
         }
+        .menu ul li::after{
+            content:"";
+            height: 7px;
+            width:1px;
+            position: absolute;
+            background-color: red;
+            transition: 2s ease-in-out;
+        }
+        .menu ul li:hover::after{
+            width: 70px;
+            background-color: red;
+     }
+
+
         .menu ul{
             /* margin-left: 17%; */
             list-style: none;
