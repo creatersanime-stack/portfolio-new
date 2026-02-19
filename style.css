@@ -304,10 +304,7 @@
             width: 38%;
             /* border:1px solid blue; */
         }
-        .f1{
-            color: crimson;
-            font-style: ;
-        }
+        
         input{
             height: 40px;
             width: 320px;
@@ -350,17 +347,22 @@
         padding: 12px 18px;
         color: white;
         background-color: crimson;
-        margin-top: 500px;
-        margin: 200px;
+        margin-top: px;
         margin-left: 10px;
         text-align: right;
-        border-radius: 10px;
+        border-radius: 20px;
         }
         .large{
-            width: 250px;
-            height:250px;
-            padding: px;
-            background-color: grey;
-            text-align: left;
+            height: 40px;
+            width: 320px;
+            padding: 12px 30px;
+            padding-bottom: 200px;
+            /* padding:8px 100px; */
+            /* color: blue;
+            background-color: brown; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
             border-radius: 10px;
         }
